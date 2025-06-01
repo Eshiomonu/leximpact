@@ -13,6 +13,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const signUp = () => router.push("/sign-up")
   const logIn = () => console.log("User log in");
+
   return (
     <nav className="flex justify-between items-center bg-white border-b-2 h-20 px-6 py-6 ">
       {/* Logo */}
